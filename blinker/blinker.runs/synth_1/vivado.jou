@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb  2 21:47:53 2021
+# Process ID: 10513
+# Current directory: /home/user/Desktop/embedded_i_lab0/blinker/blinker.runs/synth_1
+# Command line: vivado -log blinker.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blinker.tcl
+# Log file: /home/user/Desktop/embedded_i_lab0/blinker/blinker.runs/synth_1/blinker.vds
+# Journal file: /home/user/Desktop/embedded_i_lab0/blinker/blinker.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source blinker.tcl -notrace

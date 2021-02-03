@@ -17,16 +17,16 @@ end blinker_tb;
 architecture testbench of blinker_tb is
 
     signal tb_clk : std_logic := '0';
-    signal tb_sw0 : std_logic := '0';
-    signal tb_led0 : std_logic;
+    signal tb_sw3 : std_logic := '0';
+    signal tb_led3 : std_logic;
     
     component blinker is
         port(
         
             clk  : in std_logic;        -- 125 Mhz clock
-            sw0  : in std_logic;        -- switch, '1' = on
+            sw3  : in std_logic;        -- switch, '1' = on
             
-            led0 : out std_logic        -- led, '1' = on
+            led3 : out std_logic        -- led, '1' = on
         
         );
     end component;
@@ -54,7 +54,7 @@ begin
     begin
     
         wait for 1 ms;
-        tb_sw0 <= '1';
+        tb_sw3 <= '1';
     
     end process switch_proc;
     
@@ -66,8 +66,8 @@ begin
     port map (
     
         clk  => tb_clk,
-        sw0  => tb_sw0,
-        led0 => tb_led0
+        sw3  => tb_sw3,
+        led3 => tb_led3
     
     );
 

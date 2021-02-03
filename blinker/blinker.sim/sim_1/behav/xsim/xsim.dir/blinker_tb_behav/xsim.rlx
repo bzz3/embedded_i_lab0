@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6191055454941156446  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 42ec78fd81e14d7e87465aebaf5ac690 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot blinker_tb_behav xil_defaultlib.blinker_tb" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/blinker_tb_behav/xsimk\"   \"xsim.dir/blinker_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/blinker_tb_behav/obj/xsim_1.lnx64.o\" \"/usr/local/xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/usr/local/xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
